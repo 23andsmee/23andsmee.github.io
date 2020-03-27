@@ -131,7 +131,9 @@ tr:nth-child(odd) {
  .time p {
   text-align: center;
   font-size: 60px;
-  margin-top: 0px;
+  margin-top: 50px;
+   margin-bottom: 50px;
+   color:SeaShell;
 }
 </style>
   
@@ -185,7 +187,7 @@ tr:nth-child(odd) {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+var countDownDate = new Date("Jan 27, 2020 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -209,7 +211,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "May the odds be ever in your favour!";
   }
 }, 1000);
 </script>
